@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+  color: #293264;
+}
+
+/* Starter Page */
+
+
+/* photos:  */
+.blob1{
+  width: 180px;
+  position: relative;
+  left: 185px;
+}
+.blob2{
+  width: 185px;
+  position: relative;
+  right: 182px;
+  top: 202px;
+}
+
+
+
+/* text: */
+.StartPage{
+  border: 1px solid #d1d5ef;
+  margin: 5% auto;
+  width: 550px; 
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  background-color: #F5F7FB;
+  margin-bottom: 0;
+}
+
+.start-page-text{
+  height: 120px;
+  text-align: center;
+  width: 450px;
+  margin: 5% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h1{
+  color: #293264;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+p, button{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+button{
+  color: white;
+  width: 140px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #3d4d9f;
+  border: none;
+  cursor: pointer;
+}
+button:active {
+  background: #20216e;
+  -webkit-box-shadow: inset 0px 0px 5px #20216e;
+     -moz-box-shadow: inset 0px 0px 5px #20216e;
+          box-shadow: inset 0px 0px 5px #20216e;
+   outline: none;
+}
+
+
+/* Questions */
+.questions{
+  width: 100%;
+  padding: 3.5% 0;
+  height: 90px;
+}
+
+.question{
+  height: 75px;
+  padding: 0 7.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 43px;
+}
+
+ul{
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h2{
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+li{
+  color: #293264;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  list-style: none;
+  border: 1px solid #3c4c9eff;
+  border-radius: 5px;
+  width: 95px;
+  height: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor:pointer
+}
+li:active {
+  background: #20216e;
+  -webkit-box-shadow: inset 0px 0px 5px #20216e;
+     -moz-box-shadow: inset 0px 0px 5px #20216e;
+          box-shadow: inset 0px 0px 5px #20216e;
+   outline: none;
+}
+
+.results{
+  height: 70px;
+  width:100%;
+  text-align: center;
+  margin-top: 530px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
