@@ -12,7 +12,7 @@ function Instructions (props){
         style = {{
             marginTop: "25px"
             }}>Start Quiz</button>
-        <img className = "blob2" src= ".\src\pictures\blob6.png"/>
+        <img className = "blob2" src= "https://i.ibb.co/RNjd3zH/blob-6.png"/>
         </main>
     </>
     )
