@@ -144,7 +144,7 @@ React.useEffect(()=> {
   console.log(correctAnswers)
   return (
     <>  
-     {quizResults() === 5 && <Confetti width={window.innerWidth || 520} height={window.innerHeight || 300} style={{ position: 'absolute', top: 0, left: 0 }} />
+     {quizResults() === 5 && <Confetti width={window.innerWidth || 600} height={window.innerHeight || 300} style={{ position: 'absolute', top: 0, left: 0 }} />
     }
      
       {
