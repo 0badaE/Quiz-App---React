@@ -5,7 +5,7 @@ function Instructions (props){
         <img className = "blob1" src= "https://i.ibb.co/m5GGxQv/blob-5.png"/>
         <section className = "start-page-text">
             <h1> Quizzical </h1>
-            <p>Quizzical asks 5 random science questions on various topics. It’s a fun way to test your knowledge and learn new things.</p>
+            <p>Quizzical asks 5 random questions on a selected topic. It’s a fun way to test your knowledge and learn new things.</p>
             <p> By Obada Erfan 🍍</p>
         </section>
         <button 
