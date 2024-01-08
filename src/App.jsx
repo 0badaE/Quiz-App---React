@@ -18,7 +18,7 @@ function App() {
 
 
   function getQuestions() {
-    fetch("https://opentdb.com/api.php?amount=5&category=17&difficulty=hard")
+    fetch("https://opentdb.com/api.php?amount=5&category=11&difficulty=easy&type=multiple")
     .then(res => res.json())
     .then(data => {
       if (data.results) {
